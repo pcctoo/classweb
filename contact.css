@@ -3,9 +3,10 @@
 font-family: 'Libre Barcode 39 Text', cursive;
 font-family: 'Lobster', cursive; */
 html{
-	  background-image: url("cat.jpg");
-	      background-repeat: no-repeat;
-      background-position: center;
+	background-color: #BD2031;
+	background-image: url("cat.jpg");
+	background-repeat: no-repeat;
+    background-position: center;
     background-attachment: fixed;
 }
 body{
