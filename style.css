@@ -1,3 +1,4 @@
+@import url("reset.css");
 @import url('https://fonts.googleapis.com/css?family=Anton|Arvo:700|Libre+Barcode+39+Text|Jaldi|VT323');
 @import url('https://fonts.googleapis.com/css?family=Germania+One|Libre+Barcode+39+Text|Lobster');
 /*bold and san= font-family: 'Anton', sans-serif;
@@ -8,45 +9,60 @@ html{
 
 }
 #page{
-	background-color: rgba(232, 232, 230, 0.5);
+	background-color: rgba(232, 232, 230, 0.45);
 }
 head{
 	 background-color: #228B22;
-	color:;
+	margin: 5.5% auto;
 }
 h1 {
 	color: #228b22;
 	font-family: 'Anton', sans-serif;
-	font-size: 50px;
+	font-size: 54px;
 	 text-align: center;
 	 
 }
 h3 {
 	font-family: 'VT323', monospace;
-	color:#00ff00;
+	color:#000000;
 	font-size: 25px;
+	margin: 2.5% auto;	
+}
+h5 {margin: 1% auto;	
+
+	
+}
+aboutme a {
+	margin: 30% auto;	
 }
 img {  	   display: block;
-    margin: auto;
-width: 20%;}
+    margin: 5.5% auto;
+width: 20% auto;}
 li {font size 25px;}
 	p {
-		color:#00ff00;
+		color:#000000;
 		text-align: center;
 		text-align: center;
 		font-family: 'Jaldi', sans-serif;
 		font-size: 20px;
 	}
 body{
-		background-image: url("cat.jpg");
+	background-image: url("cat.jpg");
 	background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-		 background-color: #BD2031;
-text-align: center;
+	background-color: #BD2031;
+	text-align: center;
+	width: 85%;
+	margin: 5.5% auto;
 	
 }
 #bar-code p {font-family: 'Libre Barcode 39 Text', cursive;
 font-size: 50px;
+	margin: 5.5% auto;
 }
-
+#form p {
+	margin: 4.5% auto;	
+	
+	
+}
