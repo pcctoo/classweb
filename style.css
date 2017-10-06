@@ -37,10 +37,10 @@ aboutme a {
 }
 img {  	   display: block;
     margin: 5.5% auto;
-width: 20% auto;}
+}
 li {font size 25px;}
 	p {
-		color:#000000;
+		color: #000000;
 		text-align: center;
 		text-align: center;
 		font-family: 'Jaldi', sans-serif;
@@ -53,8 +53,8 @@ body{
     background-attachment: fixed;
 	background-color: #BD2031;
 	text-align: center;
-	width: 85%;
 	margin: 5.5% auto;
+	width:95%;
 	
 }
 #bar-code p {font-family: 'Libre Barcode 39 Text', cursive;
@@ -66,3 +66,22 @@ font-size: 50px;
 	
 	
 }
+.row1 {
+		 display: inline-block;
+		 border:1px solid black;
+		 vertical-aling: top;
+		 	text-align: center;
+		width: 25%;
+margin: 3%;	
+	background-color: rgba(232, 232, 230, 0.45)
+}
+.row2 {
+		 display: inline-block;
+		 border:1px solid black;
+		 vertical-aling: botum;
+		 	text-align: center;
+		width: 25%;
+margin: 3.5%;	
+	background-color: rgba(232, 232, 230, 0.45)
+}
+
