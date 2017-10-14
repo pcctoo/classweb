@@ -64,7 +64,10 @@ font-size: 50px;
 #form p {
 	margin: 4.5% auto;	
 	
-	
+
+}
+p{
+	margin: auto;
 }
 .row1 {
 		 display: inline-block;
