@@ -5,11 +5,26 @@
 regula and not bold= font-family: 'Jaldi', sans-serif;
 bold and serif= font-family: 'Arvo', serif;
 retro looking= font-family: 'VT323', monospace;*/
-html{
-
+	@media all and (max-width: 750px) {
+  #page{
+    float: none;
+    width: auto;
+	background-color: rgba(232, 232, 230, 100)
+	margin: 3.5% auto;
 }
+.mob{
+	margin: 3.5% auto;
+	 background-color: #4444ff;
+}
+
+	}
+
+
+
+
 #page{
-	background-color: rgba(232, 232, 230, 0.45);
+background-color: rgba(232, 232, 230, 0.45);
+
 }
 head{
 	 background-color: #228B22;
@@ -55,8 +70,18 @@ body{
 	text-align: center;
 	margin: 5.5% auto;
 	width:95%;
+
 	
 }
+			@media all and (max-width: 420px) {
+ body {
+	 background-image: none;
+    float: none;
+    width: auto;
+	background-color: #BD2031;
+	font-family: 'Anton', sans-serif;
+}
+			}
 #bar-code p {font-family: 'Libre Barcode 39 Text', cursive;
 font-size: 50px;
 	margin: 5.5% auto;
@@ -67,7 +92,9 @@ font-size: 50px;
 
 }
 p{
+	background-color: rgba(232, 232, 230, 0.45);
 	margin: auto;
+	
 }
 .row1 {
 		 display: inline-block;
