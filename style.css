@@ -19,6 +19,10 @@ retro looking= font-family: 'VT323', monospace;*/
 
 	}
 
+.favorite-item{
+		background-color: rgba(232, 232, 230, 0.45);
+	margin: auto;
+}
 
 
 
